@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color:  hsl(217, 54%, 11%);
+    
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 400px;
+    width: 250px;
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    top: 20%;
+    border-radius: 10px;
+
+}
+.img
+{
+    width: 200px;
+    object-fit: cover;
+    /* border: 1px solid black; */
+}
+
+.img > img{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    border-radius: 5px;
+}
+.first{
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.second{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.third{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    color: aqua;
+}
+.third1{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.fourth{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    top: 12px;
+    left: 150px;
+}
+.fourth1{
+    position: relative;
+    bottom: 24px;
+    left: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.fifth{
+    color: grey;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+.six
+{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border: 0.5px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+}
+.six > img{
+    width: 100%;
+}
+.seven{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    font-family: 'Outfit', sans-serif;
+}
+.seventh{
+    color: #ffffff;
+    position: relative;
+    bottom: 20px;
+    left: 86px;
+    font-family: 'Outfit', sans-serif;
+}
